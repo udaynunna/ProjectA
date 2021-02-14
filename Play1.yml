@@ -1,0 +1,9 @@
+---
+hosts:all
+gatherfacts: False
+
+- tasks
+ 
+- name : Test fie creation
+  shell: 'touch /tmp/Ansible_file'
+ 
