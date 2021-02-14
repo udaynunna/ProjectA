@@ -4,5 +4,5 @@
   
   tasks:
     - name: Create test file
-      shell: 'touch /tmp/Ansible_file'
+      shell: 'touch /tmp/Ansible_file; ls -l /tmp > /tmp/out.txt; cat /tmp/out.txt'
  
